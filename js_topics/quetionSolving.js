@@ -96,16 +96,76 @@
 // Q.5
 // write a program to append "New!" infornt of given string. if already present just print the given string.
 
-const newString = (str)=>{
-    if (!str.includes("New!")) {
-        return `New! ${str}`
-    } else {
-        return str;
-    }
-}
+// const newString = (str)=>{
+//     if (!str.includes("New!")) {
+//         return `New! ${str}`
+//     } else {
+//         return str;
+//     }
+// }
 
-console.log((newString("hello world")));
-console.log((newString("New! hello world")));
+// console.log((newString("hello world")));
+// console.log((newString("New! hello world")));
+
+// Q.6
+// write a program to create new string using 1st 3 letters and last 3letters from the given string. if string lenght is less than 3 return the given string as it is.
+
+// let ans = (str)=>{
+//   if(str.length<3){
+//     return str;
+//   }else{
+//     return `${str.slice(0,3)}${str.slice(str.length-3)}`
+//   }
+// }
+// console.log(ans("abc123efg"));
+
+// Q.7
+// write a program to extract first half of string in even length-3
+
+// let ans = (str)=>{
+//   return str.slice(0,str.length/2);
+// }
+// console.log(ans("temp"));
+// console.log(ans("temple"));
+// console.log(ans("temples"));
+
+// q,8
+// write a program to concatinate two string by removing 1st char of both strings
+
+// let ans = (str1,str2)=>{
+//   return `${str1.slice(1)}${str2.slice(1)}`
+// }
+// console.log(ans("junior","developer"))
+
+
+// Q.9
+// Given Two values find which one is nearest to 100
+
+// let ans =(num1,num2)=>{
+//   if(100-num1 < 100-num2 || num1===100){
+//     return num1
+//   }else{
+//     return num2
+//   }
+// }
+// console.log(ans(100,102))
+
+
+// q.10
+// write a program to check a given string contains 2 or 4 occurance of given character
+
+// let ans = (str, char)=>{
+//   if(str.split(char).length>2 && str.split(char).length<6 ) {
+//     return true
+//   }
+//   return false
+// }
+
+// console.log(ans("ooh","o"))
+
+
+
+
 
 
 
