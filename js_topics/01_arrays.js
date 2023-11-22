@@ -2,7 +2,7 @@
 
 
 // foreach  - its a higher order function, it takes function as para
-let arr=[1,2,3,4];
+// let arr=[1,2,3,4];
 
 // arr.forEach(function(val){
 //     // console.log(val);
@@ -108,17 +108,88 @@ let arr=[1,2,3,4];
 
 
 
-let arr6=["red","blue","white"]
-let str ="";
+// let arr6=["red","blue","white"]
+// let str ="";
 
-//join property is used to join the array elements with any specified seperator
+// //join property is used to join the array elements with any specified seperator
 
-function joinAll(inp,char) {
-   return  inp.join(`${char}`)
-}
+// function joinAll(inp,char) {
+//    return  inp.join(`${char}`)
+// }
 
-console.log(joinAll(arr6,"+"));
-// joinAll(arr6,"+")
+// console.log(joinAll(arr6,"+"));
+// // joinAll(arr6,"+")
+
+
+// Q.11
+//write the program to find number of even digits in Array
+
+// let arr = [1,2,3,4,5,6,8]
+
+// let count=0
+// arr.forEach((val)=>{
+//   if (val%2 ==0) {
+//     count++
+//   }
+// })
+// console.log(count)
+
+// const countEvenNumbers=(arr)=>{
+//   return arr.filter((val)=> val % 2 ===0).length
+// }
+
+// console.log(countEvenNumbers([1,2,3,4,5,6]))
+
+// Q.12
+//  write a program to find even numbers upto given number
+// let num =14;
+// for (let i =1; i <= num ;i++) {
+//   if(i%2 == 0){
+//     console.log(i)
+//   }
+// }
+// let ans = (num)=>{
+//   let arr =[];
+//   for (let i =1; i <= num ;i++) {
+//   if(i%2 == 0){
+//     arr.push(i);
+//   }
+// }
+// return arr;
+// }
+// console.log(ans(14))
+
+
+// Q.13
+// write a program to check wheather a array is sorted or not
+
+// const isSorted = (arr)=>{
+//   for (let i = 0; i < arr.length-1; i++) {
+//     if(arr[i]>arr[i+1]){
+//       return false
+//     }
+    
+//   }
+//   return true
+// }
+
+// console.log(isSorted([1,4,3,4]))
+
+//Q.14 
+// write a program to find largest even number in array
+
+
+// let allEvenNumber = (arr)=>{
+//   // console.log(arr)
+//   return Math.max(...arr.filter((val)=>val % 2 ===0))
+// }
+
+// console.log(allEvenNumber([1,2,3,4,5]))
+
+
+
+
+
 
 
 
